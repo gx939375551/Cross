@@ -1,0 +1,91 @@
+body,
+html {
+    margin: 0;
+}
+
+
+/*设置五个块的宽和高*/
+
+.block_1,
+.block_2,
+.block_3,
+.block_4,
+.block_5 {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*整体布局*/
+
+.container {
+    width: 306px;
+    height: 306px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -153px;
+    margin-left: -153px;
+}
+
+
+/*设置四个边上的块的阴影效果！*/
+
+.block_1,
+.block_2,
+.block_3,
+.block_4 {
+    box-shadow: 3px 3px 2px #c7c7c7;
+}
+
+
+/*top块*/
+
+.block_1 {
+    background-color: #00b7ee;
+    position: relative;
+    left: 100px;
+    margin-left: 5px;
+}
+
+
+/*left块*/
+
+.block_2 {
+    background-color: #f07625;
+    margin-top: 5px;
+}
+
+
+/*bottom块*/
+
+.block_3 {
+    background-color: #25ed96;
+    position: relative;
+    left: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+/*right块*/
+
+.block_4 {
+    background-color: #f2647d;
+    position: relative;
+    left: 200px;
+    top: -200px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+
+/*center块*/
+
+.block_5 {
+    position: relative;
+    left: 100px;
+    top: -300px;
+    margin-left: 5px;
+    padding: 0 auto;
+}
